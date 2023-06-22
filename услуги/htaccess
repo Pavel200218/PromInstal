@@ -1,0 +1,47 @@
+ErrorDocument 403 /404.html
+ErrorDocument 404 /404.html
+
+DirectoryIndex page27883978.html
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^view$ page27883978.html [NC]
+RewriteRule ^view/$ page27883978.html [NC]
+
+RewriteRule ^glavnaya$ page35855084.html [NC]
+RewriteRule ^glavnaya/$ page35855084.html [NC]
+
+RewriteRule ^uslugi123$ page35958463.html [NC]
+RewriteRule ^uslugi123/$ page35958463.html [NC]
+
+RewriteRule ^main$ page27884766.html [NC]
+RewriteRule ^main/$ page27884766.html [NC]
+
+RewriteRule ^onas$ page35960157.html [NC]
+RewriteRule ^onas/$ page35960157.html [NC]
+
+RewriteRule ^create$ page27885230.html [NC]
+RewriteRule ^create/$ page27885230.html [NC]
+
+RewriteRule ^proekti$ page36127337.html [NC]
+RewriteRule ^proekti/$ page36127337.html [NC]
+
+RewriteRule ^123$ page35839328.html [NC]
+RewriteRule ^123/$ page35839328.html [NC]
+
+RewriteRule ^2$ page35857831.html [NC]
+RewriteRule ^2/$ page35857831.html [NC]
+
+RewriteRule ^glavnaya1$ page35940311.html [NC]
+RewriteRule ^glavnaya1/$ page35940311.html [NC]
+
+RewriteRule ^4$ page36697717.html [NC]
+RewriteRule ^4/$ page36697717.html [NC]
+
+RewriteRule ^6$ page36723024.html [NC]
+RewriteRule ^6/$ page36723024.html [NC]
+
+
